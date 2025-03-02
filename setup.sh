@@ -26,12 +26,29 @@ ln -sf "$storage/Repositories" ~/storage/repositories
 
 # Install tools
 pkg install -y \
+    build-essential \
+    make \
     zsh \
     vim \
+    nano \
+    which \
+    tree \
+    eza \
+    bat \
+    ripgrep \
+    fd \
+    duf \
+    ncdu \
     openssh \
-    git \
-    gnupg \
     rsync \
     rclone \
+    git \
+    tig \
+    gh \
+    gnupg \
+    age \
     gopass \
-    chezmoi
+    chezmoi \
+    direnv \
+    python \
+    uv
