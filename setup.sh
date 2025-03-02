@@ -28,10 +28,25 @@ ln -sf "$storage/Repositories" ~/storage/repositories
 pkg install -y \
     zsh \
     vim \
+    nano \
+    which \
+    tree \
+    eza \
+    bat \
+    ripgrep \
+    fd \
+    duf \
+    ncdu \
     openssh \
-    git \
-    gnupg \
     rsync \
     rclone \
+    git \
+    tig \
+    gh \
+    gnupg \
+    age \
     gopass \
-    chezmoi
+    chezmoi \
+    direnv \
+    python \
+    uv
