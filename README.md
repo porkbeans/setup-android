@@ -14,5 +14,7 @@ My termux configurations.
     1. Install F-Droid
 1. Install [Termux](https://f-droid.org/packages/com.termux/) from F-Droid
 1. `curl 'https://raw.githubusercontent.com/porkbeans/setup-termux/refs/heads/main/setup.sh' | bash`
-1. `ssh-keygen -t ed25519 -C 'mizuo@pixel7a'`
+1. `ssh-keygen -t ed25519 -C 'porkbeans@android'`
 1. `cat .ssh/id_ed25519.pub` and Add it to GitHub
+1. `chezmoi init git@github.com:porkbeans/dotfiles.git`
+1. `chezmoi apply`
