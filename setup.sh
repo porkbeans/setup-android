@@ -20,9 +20,9 @@ mkdir -p "$storage/Download"
 mkdir -p "$storage/Documents"
 mkdir -p "$storage/Repositories"
 
-ln -sf "$storage/Download" ~/storage/downloads
-ln -sf "$storage/Documents" ~/storage/documents
-ln -sf "$storage/Repositories" ~/storage/repositories
+ln -sn "$storage/Download" ~/storage/downloads
+ln -sn "$storage/Documents" ~/storage/documents
+ln -sn "$storage/Repositories" ~/storage/repositories
 
 # Install tools
 pkg install -y \
