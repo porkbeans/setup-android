@@ -1,6 +1,6 @@
-# setup-android
+# setup-termux
 
-My Android termux configurations.
+My termux configurations.
 
 **DO NOT** use this repository as is because it contains some tweaks for me.
 
@@ -13,6 +13,6 @@ My Android termux configurations.
     1. Copy F-Droid.apk to Android
     1. Install F-Droid
 1. Install [Termux](https://f-droid.org/packages/com.termux/) from F-Droid
-1. `curl 'https://raw.githubusercontent.com/porkbeans/setup-android/refs/heads/main/setup.sh' | bash`
+1. `curl 'https://raw.githubusercontent.com/porkbeans/setup-termux/refs/heads/main/setup.sh' | bash`
 1. `ssh-keygen -t ed25519 -C 'mizuo@pixel7a'`
 1. `cat .ssh/id_ed25519.pub` and Add it to GitHub
