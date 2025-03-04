@@ -18,16 +18,14 @@ termux-setup-storage
 
 mkdir -p "$storage/Download"
 mkdir -p "$storage/Documents"
-mkdir -p "$storage/Repositories"
 
 ln -sn "$storage/Download" ~/storage/downloads
 ln -sn "$storage/Documents" ~/storage/documents
-ln -sn "$storage/Repositories" ~/storage/repositories
 
 # Install tools
 pkg install -y \
+    termux-api \
     build-essential \
-    make \
     bash \
     bash-completion \
     zsh \
