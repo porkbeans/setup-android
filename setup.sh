@@ -55,6 +55,7 @@ pkg install -y \
     jq \
     gopass \
     chezmoi \
+    starship \
     direnv \
     python \
     uv
