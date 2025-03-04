@@ -1,3 +1,9 @@
+# setup-android
+
+My Android termux configurations.
+
+**DO NOT** use this repository as is because it contains some tweaks for me.
+
 # Usage
 
 1. Install Favorite apps from Play Store
