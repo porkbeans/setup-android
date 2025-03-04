@@ -28,13 +28,17 @@ ln -sn "$storage/Repositories" ~/storage/repositories
 pkg install -y \
     build-essential \
     make \
+    bash \
+    bash-completion \
     zsh \
+    zsh-completions \
     vim \
     nano \
     which \
     tree \
     eza \
     bat \
+    less \
     ripgrep \
     fd \
     duf \
@@ -45,8 +49,10 @@ pkg install -y \
     git \
     tig \
     gh \
+    diff-so-fancy \
     gnupg \
     age \
+    jq \
     gopass \
     chezmoi \
     direnv \
