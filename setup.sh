@@ -51,6 +51,7 @@ pkg install -y \
     gnupg \
     age \
     jq \
+    proot-distro \
     gopass \
     chezmoi \
     starship \
